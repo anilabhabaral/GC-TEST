@@ -6,5 +6,5 @@ $ javac GcTest.java
 ```
 
 ```
-$ java -Xmx2G -XX:+UseZGC -XX:+ZGenerational "-Xlog:gc*:file=gc.log" GcTest
+$ java -Xmx6G -XX:+UseZGC -XX:+ZGenerational "-Xlog:gc*:file=gc.log" GcTest
 ```
